@@ -24,7 +24,8 @@
     "test-only": "jest",
     "test": "npm run lint && jest",
     "test-watch": "npm run test-only -- --watch --watchAll",
-    "start": "babel src -d dist --watch"
+    "start": "babel src -d dist --watch",
+    "postinstall": "babel src -d dist"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
